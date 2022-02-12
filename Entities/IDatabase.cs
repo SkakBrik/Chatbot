@@ -10,6 +10,7 @@ namespace Entities
     {
         string GetGreetings();
         string GetGoodbye();
-        string GetAngryGoodbye(); 
+        string GetAngryGoodbye();
+        string GetTool(string tool);
     }
 }

@@ -9,10 +9,12 @@ namespace Database
 {
     public class DB : IDatabase 
     {
-        private Greetings _greetings; 
+        private Greetings _greetings;
+        private Tools _tools; 
         public DB()
         {
             _greetings = new Greetings();
+            _tools = new Tools();
         }
 
         public string GetGreetings()
@@ -28,6 +30,17 @@ namespace Database
         public string GetAngryGoodbye()
         {
             return _greetings.GetAngryGoodbye();
+        }
+
+        public string GetTool(string tool)
+        {
+            if (tool.ToLower().Contains("hammer"))
+            {
+                return _tools.GetHammer(); 
+            } else
+            {
+                return _tools.GetScrewdriver(); 
+            }
         }
     }
 }
