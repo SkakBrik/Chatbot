@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatbotAPI", "Chatbot\ChatbotAPI.csproj", "{309419A0-6981-4D0F-BAA3-3DA67691F66D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{B27DE7B2-AF35-4555-89FB-6DD0113C27D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{1999AD3C-DFC6-4BC9-BA8E-5E2EA0476231}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{309419A0-6981-4D0F-BAA3-3DA67691F66D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{309419A0-6981-4D0F-BAA3-3DA67691F66D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{309419A0-6981-4D0F-BAA3-3DA67691F66D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{309419A0-6981-4D0F-BAA3-3DA67691F66D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B27DE7B2-AF35-4555-89FB-6DD0113C27D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B27DE7B2-AF35-4555-89FB-6DD0113C27D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B27DE7B2-AF35-4555-89FB-6DD0113C27D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B27DE7B2-AF35-4555-89FB-6DD0113C27D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1999AD3C-DFC6-4BC9-BA8E-5E2EA0476231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1999AD3C-DFC6-4BC9-BA8E-5E2EA0476231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1999AD3C-DFC6-4BC9-BA8E-5E2EA0476231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1999AD3C-DFC6-4BC9-BA8E-5E2EA0476231}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {604C531D-53FA-42F0-A543-6303C851412A}
+	EndGlobalSection
+EndGlobal
