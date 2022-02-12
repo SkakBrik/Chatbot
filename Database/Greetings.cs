@@ -13,5 +13,10 @@ namespace Database
         {
             return "Hello!";
         }
+
+        public string GetGoodbye()
+        {
+            return "Bye bye, See you next time"; 
+        }
     }
 }

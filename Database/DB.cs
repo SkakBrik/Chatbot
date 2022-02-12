@@ -19,5 +19,10 @@ namespace Database
         {
             return _greetings.GetGreetings();
         }
+
+        public string GetGoodbye()
+        {
+            return _greetings.GetGoodbye(); 
+        }
     }
 }

@@ -8,6 +8,7 @@ namespace Entities
 {
     public interface IDatabase
     {
-        string GetGreetings(); 
+        string GetGreetings();
+        string GetGoodbye(); 
     }
 }
