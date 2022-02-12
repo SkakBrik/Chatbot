@@ -9,6 +9,7 @@ namespace Entities
     public interface IDatabase
     {
         string GetGreetings();
-        string GetGoodbye(); 
+        string GetGoodbye();
+        string GetAngryGoodbye(); 
     }
 }

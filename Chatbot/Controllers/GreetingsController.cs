@@ -5,11 +5,13 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using Entities;
-using Database; 
+using Database;
+using System.Web.Http.Cors;
 
 namespace Chatbot.Controllers
 {
     [RoutePrefix("api/greetings")]
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class GreetingsController : ApiController
     {
         IDatabase db; 
@@ -32,5 +34,11 @@ namespace Chatbot.Controllers
             return db.GetGoodbye();
         }
 
+        [Route("angryGoodbye")]
+        [HttpGet]
+        public string GetAngryGoodbye()
+        {
+            return db.GetAngryGoodbye();
+        }
     }
 }
